@@ -4,7 +4,7 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
  
 </head>
@@ -13,11 +13,11 @@
   <!-- Top Container -->
 <div class="container-fluid">       
   <div class="row">
-    <div class="col-sm-4" style="background-color:orange;"><br>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="background-color:orange;"><br>
       <!-- Menu Button -->
       <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-          <span style="font-size:30px;cursor:pointer" >&#9776; Menu</span></button>
+          <span style="cursor:pointer" >&#9776; Menu</span></button>
         <ul class="dropdown-menu">
           <li><a href="#">Log Out</a></li>
         </ul>
@@ -29,7 +29,7 @@
       <!-- End of top column-->
 
       <div class="row">
-      <div class="col-sm-4" style="background-color:orange;"> Here </div>
+      
       </div>
       
 
@@ -46,7 +46,7 @@
 
 
     <!-- Mid container -->
-    <div class="col-sm-12" style="background-color:orangered;">  
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="background-color:orangered;">  
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         
@@ -72,7 +72,7 @@
       </div>
 
       <!-- Map to go here -->
-      <div class="mapContainer-fluid">
+      <div class="mapContainer-Responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d150660.09876154995!2d176.16343520954211!3d-37.807035111102714!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1528275463200" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       
@@ -86,7 +86,7 @@
       <div class="container3">
       <div id="main">
       
-        <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
+        
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
       </div>
 
@@ -127,7 +127,8 @@
 <script src="scripts.js"></script>  
 
 <!-- Bootstrap -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>     
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </body>
 </html>
