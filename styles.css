@@ -1,3 +1,6 @@
+
+/* Side Nav */
+
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
@@ -43,20 +46,21 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .sidenav {padding-top: 10px;}
   .sidenav a {font-size: 18px;}
 }
 
-
+/* Map */
 .container2 {
     padding: 20px;
     
 }
 
+
 .iframe-container{
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    padding-bottom: 56.25%; 
 }
 .iframe-container > *{
     display: block;
@@ -81,8 +85,18 @@ body {
     padding: 20px;
 }
 
+/* Four image containers  */
+.column {
+    float: left;
+    width: 10.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-
-
-
-
+  
