@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Find my whanau</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+ 
+</head>
+<body>
+
+  <!-- Top Container -->
+<div class="container-fluid">       
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="background-color:orange;">
+      <!-- Menu Button -->
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+          <span style="cursor:pointer" >&#9776; Menu</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+      <!-- Top Buttons -->
+      <div class="topButton">
+        <button type="button" class="btn btn-success"> Messages </button>
+        <button type="button" class="btn btn-success"> Family Info </button>
+      </div>
+      
+
+    
+      </div>
+      <!-- End of top container-->
+
+      
+      
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+    <!-- Mid container -->
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="background-color:orangered;">  
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <div class="container2">
+          <img src="images/logo.png" class="mx-auto d-block" alt="logo">
+          <h2> Register Parent </h2>
+          <form action="/action_page.php">
+        <div class="form-group">
+              <label for="Username">User Name:</label>
+              <input type="username" class="form-control" id="username" placeholder="Enter Username" name="username">
+            </div>
+            <div class="form-group">
+              <label for="mob">Mobile Number:</label>
+              <input type="mob" class="form-control" id="mob" placeholder="Enter Mobile number" name="mob">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="pwd" class="form-control" id="pwd" placeholder="Enter Password" name="pwd">
+            </div>
+            <div class="form-group">
+                <label for="pwd2">Confirm Password:</label>
+                <input type="pwd2" class="form-control" id="pwd2" placeholder="Confirm Password" name="pwd">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember"> Remember me </label>
+            </div>
+            <a href="index.html" class="btn btn-success" onclick="closeNav()"> Submit </a>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map to go here -->
+      <div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d150660.09876154995!2d176.16343520954211!3d-37.807035111102714!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1528275463200" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      
+
+
+
+
+
+
+      <!-- side Menu Container -->
+      <div class="container3">
+      <div id="main">
+      
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </div>
+
+    </div>
+    <!-- Mid Container ends here -->  
+
+
+      <!-- JavaScript for the side nav opening and closing (Don't know why its not working in the script.js file??)  -->
+      <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "auto";
+            document.getElementById("main").style.marginLeft = "auto";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "auto";
+            document.getElementById("main").style.marginLeft= "auto";
+            document.body.style.backgroundColor = "white";
+        }
+        </script>
+
+        
+        
+      
+    
+
+
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="container-fluid">       
+      <div class="row">
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+            <button type="button" class="btn btn-info"> Add Member </button>
+            </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 " style="background-color:orange;">
+          <a target="_blank" href="images/adult-beard-boy.jpg">
+            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+          </a>
+      </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+          <a target="_blank" href="images/adult-beard-boy.jpg">
+            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+          </a>
+      </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+          <a target="_blank" href="images/adult-beard-boy.jpg">
+            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+          </a>
+      </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+          <a target="_blank" href="images/adult-beard-boy.jpg">
+            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+          </a>
+      </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+          <a target="_blank" href="images/adult-beard-boy.jpg">
+            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+          </a>
+        </div>
+    </div>
+  </div>
+    
+  
+  
+  
+  </div>
+
+<!-- Link to script.js page -->
+<script src="scripts.js"></script>  
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</div> 
+</body>
+</html>
