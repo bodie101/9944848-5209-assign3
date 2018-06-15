@@ -20,7 +20,7 @@
         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
           <span style="cursor:pointer" >&#9776; Menu</span></button>
         <ul class="dropdown-menu">
-          <li><a href="#">Log Out</a></li>
+          <li><a href="index.html" onclick="closeNav()"> Log Out </a></li>
         </ul>
       </div>
       <!-- Top Buttons -->
@@ -69,7 +69,7 @@
             <div class="checkbox">
               <label><input type="checkbox" name="remember"> Remember me </label>
             </div>
-            <a href="index.html" class="btn btn-success" onclick="closeNav()"> Login </a>
+            <a href="main.html" class="btn btn-success" onclick="closeNav()"> Login </a>
             <br>
             <a href="Register.html" class="btn btn-success" onclick="closeNav()"> Register </a>
           </form>
@@ -96,33 +96,9 @@
         
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
       </div>
-
     </div>
-    <!-- Mid Container ends here -->  
-
-
-      <!-- JavaScript for the side nav opening and closing (Don't know why its not working in the script.js file??)  -->
-      <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "auto";
-            document.getElementById("main").style.marginLeft = "auto";
-            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-        
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "auto";
-            document.getElementById("main").style.marginLeft= "auto";
-            document.body.style.backgroundColor = "white";
-        }
-        </script>
-
-        
-        
-      
-    
-
-
-    </div>
+  </div>
+  <!-- Mid container ends here-->
 
     <!-- Bottom Section -->
     <div class="container-fluid">       
@@ -157,11 +133,7 @@
         </div>
     </div>
   </div>
-    
-  
-  
-  
-  </div>
+</div>
 
 <!-- Link to script.js page -->
 <script src="scripts.js"></script>  
