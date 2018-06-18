@@ -99,4 +99,8 @@ body {
     display: table;
   }
 
-  
+  /* Table for family  info */
+  .table {
+    background-color: grey;
+    padding: 30px; 
+}
