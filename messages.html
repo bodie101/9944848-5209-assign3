@@ -10,6 +10,9 @@
  
 </head>
 <body>
+        
+    
+       
 
   <!-- Top Container -->
 <div class="container-fluid">       
@@ -20,13 +23,16 @@
         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
           <span style="cursor:pointer" >&#9776; Menu</span></button>
         <ul class="dropdown-menu">
-        <li><a href="index.html" onclick="closeNav()"> Log Out </a></li>
+          <li><a href="index.html" onclick="closeNav()"> Log Out </a></li>
         </ul>
       </div>
       <!-- Top Buttons -->
       <div class="topButton">
-        <a href="messages.html" class="btn btn-success"> Messages </a>
+        <button type="button" class="btn btn-success"> Messages </button>
         <a href="familyinfo.html" class="btn btn-success"> Family info </a>
+
+
+        
       </div>
       
 
@@ -40,35 +46,64 @@
 
 
 
-
-
-
-
-
-   
-    
-
-
     <!-- Mid container -->
     <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="background-color:orangered;">  
-      
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <div class="container2">
+          <img src="images/logo.png" class="mx-auto d-block" alt="logo">
+          <h2> Messages </h2>
+          <div class="container">
+                <img src="images/girl.jpg" alt="Avatar" style="width:100%;">
+                <p>Hello. How are you today?</p>
+                <span class="time-right">11:00</span>
+              </div>
+              
+              <div class="container darker">
+                <img src="images/adult-beard-boy.jpg" alt="Avatar" class="right" style="width:100%;">
+                <p>Hey! I'm fine. Thanks for asking!</p>
+                <span class="time-left">11:01</span>
+              </div>
+              
+              <div class="container">
+                <img src="images/girl.jpg" alt="Avatar" style="width:100%;">
+                <p>Sweet! So, what do you wanna do today?</p>
+                <span class="time-right">11:02</span>
+              </div>
+              
+              <div class="container darker">
+                <img src="images/adult-beard-boy.jpg" alt="Avatar" style="width:100%;">
+                <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+                <span class="time-left">11:05</span>
+              </div>
+        </div>
+        <a href="main.html" class="btn btn-success" onclick="closeNav()"> Close </a>
+
+
+      </div>
 
       <!-- Map to go here -->
       <div class="iframe-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d150660.09876154995!2d176.16343520954211!3d-37.807035111102714!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1528275463200" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       
-    <!-- Mid Container ends here -->  
 
 
-     
-        
-        
+
+
+
+
+      <!-- side Menu Container -->
+      <div class="container3">
+      <div id="main">
       
-    
-
-
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </div>
     </div>
+  </div>
+  <!-- Mid container ends here-->
 
     <!-- Bottom Section -->
     <div class="container-fluid">       
@@ -103,7 +138,7 @@
         </div>
     </div>
   </div>
-  </div>
+</div>
 
 <!-- Link to script.js page -->
 <script src="scripts.js"></script>  

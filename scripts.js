@@ -10,3 +10,10 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "auto";
     document.body.style.backgroundColor = "white";
 }
+
+
+function codeAddress() {
+    openNav();
+}
+
+window.onload = codeAddress;
