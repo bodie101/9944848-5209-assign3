@@ -52,8 +52,8 @@ body {
 
 /* Map */
 .container2 {
-    padding: 20px;
-    
+    padding: 20px; 
+    color: rgb(158, 153, 153);
 }
 
 
@@ -150,3 +150,21 @@ body {
     color: #999;
 }
 /* Message box ends here */
+
+
+.buttoninfo {
+    padding: 20px; 
+}
+
+.button3 {
+   
+    float: right;
+    padding: 10px;
+}
+
+.button4 {
+    float: left;
+    padding: 10px;
+ 
+}
+

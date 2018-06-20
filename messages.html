@@ -7,13 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
- 
 </head>
 <body>
-        
-    
-       
-
   <!-- Top Container -->
 <div class="container-fluid">       
   <div class="row">
@@ -30,21 +25,9 @@
       <div class="topButton">
         <button type="button" class="btn btn-success"> Messages </button>
         <a href="familyinfo.html" class="btn btn-success"> Family info </a>
-
-
-        
       </div>
-      
-
-    
       </div>
       <!-- End of top container-->
-
-      
-      
-
-
-
 
     <!-- Mid container -->
     <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="background-color:orangered;">  
@@ -53,6 +36,21 @@
         
         <div class="container2">
           <img src="images/logo.png" class="mx-auto d-block" alt="logo">
+          <form>
+            <div class="checkbox">
+              <label> <input type="checkbox" value=""> Coming home </label>
+            </div>
+            <div class="checkbox">
+                <label> <input type="checkbox" value=""> Where are you now </label>
+            </div>
+            <div class="checkbox">
+                <label> <input type="checkbox" value=""> Is everyone safe? </label>
+            </div> 
+            <div class="button4">
+                <a href="main.html" class="btn btn-success btn-sm" onclick="closeNav()"> Send  </a>
+            </div>
+          </form>
+          <br><br><br>
           <h2> Messages </h2>
           <div class="container">
                 <img src="images/girl.jpg" alt="Avatar" style="width:100%;">
@@ -77,13 +75,28 @@
                 <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
                 <span class="time-left">11:05</span>
               </div>
+              <form>
+                <div class="form-group">
+                  <label for="comment"> Type Message </label>
+                  <textarea class="form-control" rows="4" id="comment"></textarea>
+                </div>
+              </form>
+
+              <div class="button4">
+                  <a href="main.html" class="btn btn-success btn-sm" onclick="closeNav()"> Send  </a>
+                </div>
+  
+              
+              <div class="button3">
+                <a href="main.html" class="btn btn-success btn-sm" onclick="closeNav()"> Close </a>
+              </div>
+
         </div>
-        <a href="main.html" class="btn btn-success" onclick="closeNav()"> Close </a>
 
 
       </div>
 
-      <!-- Map to go here -->
+      <!-- Map to go here -->   <!-- Had to learn how to do the iframe container https://stackoverflow.com/questions/15668762/google-maps-with-bootstrap-not-responsive?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa  -->
       <div class="iframe-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d150660.09876154995!2d176.16343520954211!3d-37.807035111102714!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1528275463200" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
