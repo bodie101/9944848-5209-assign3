@@ -11,7 +11,7 @@ function closeNav() {
     document.body.style.backgroundColor = "white";
 }
 
-
+//Code for the side menu to open on the opening of every page that has the side menu
 function codeAddress() {
     openNav();
 }

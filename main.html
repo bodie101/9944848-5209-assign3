@@ -5,113 +5,92 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
- 
 </head>
 <body>
 
   <!-- Top Container -->
-<div class="container-fluid">       
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="background-color:orange;">
-      <!-- Menu Button -->
-      <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-          <span style="cursor:pointer" >&#9776; Menu</span></button>
-        <ul class="dropdown-menu">
-        <li><a href="index.html" onclick="closeNav()"> Log Out </a></li>
-        </ul>
-      </div>
-      <!-- Top Buttons -->
-      <div class="topButton">
-        <a href="messages.html" class="btn btn-success"> Messages </a>
-        <a href="familyinfo.html" class="btn btn-success"> Family info </a>
-      </div>
-      
-
-    
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="background-color:orange;">
+        <!-- Menu Button -->
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            <span style="cursor:pointer">&#9776; Menu</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="index.html" onclick="closeNav()"> Log Out </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Top Buttons -->
+        <div class="topButton">
+          <a href="messages.html" class="btn btn-success"> Messages </a>
+          <a href="familyinfo.html" class="btn btn-success"> Family info </a>
+        </div>
       </div>
       <!-- End of top container-->
 
-      
-      
+      <!-- Mid container -->
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="background-color:orangered;">
 
-
-
-
-
-
-
-
-
-   
-    
-
-
-    <!-- Mid container -->
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12" style="background-color:orangered;">  
-      
-
-      <!-- Map to go here -->
-      <div class="iframe-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d150660.09876154995!2d176.16343520954211!3d-37.807035111102714!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1528275463200" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-      
-    <!-- Mid Container ends here -->  
-
-
-     
-        
-        
-      
-    
-
-
-    </div>
-
-    <!-- Bottom Section -->
-    <div class="container-fluid">       
-      <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
-            <a href="addmember.html" class="btn btn-info"> Add Member </a>
-            </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 " style="background-color:orange;">
-          <a target="_blank" href="images/adult-beard-boy.jpg">
-            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
-          </a>
-      </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
-          <a target="_blank" href="images/adult-beard-boy.jpg">
-            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
-          </a>
-      </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
-          <a target="_blank" href="images/adult-beard-boy.jpg">
-            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
-          </a>
-      </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
-          <a target="_blank" href="images/adult-beard-boy.jpg">
-            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
-          </a>
-      </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
-          <a target="_blank" href="images/adult-beard-boy.jpg">
-            <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
-          </a>
+        <!-- Responsive Map -->
+        <div class="iframe-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d150660.09876154995!2d176.16343520954211!3d-37.807035111102714!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1528275463200"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
+      </div>
+
+        <!-- Mid Container ends here -->
+
+      <!-- Bottom Section -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+            <a href="addmember.html" class="btn btn-info"> Add Member </a>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 " style="background-color:orange;">
+            <a target="_blank" href="images/adult-beard-boy.jpg">
+              <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+            <a target="_blank" href="images/adult-beard-boy.jpg">
+              <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+            <a target="_blank" href="images/adult-beard-boy.jpg">
+              <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+            <a target="_blank" href="images/adult-beard-boy.jpg">
+              <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+            </a>
+          </div>
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background-color:orange;">
+            <a target="_blank" href="images/adult-beard-boy.jpg">
+              <img class="img-fluid" src="images/adult-beard-boy.jpg" alt="Person" style="width:100px">
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  </div>
 
-<!-- Link to script.js page -->
-<script src="scripts.js"></script>  
+    <!-- Link to script.js page -->
+    <script src="scripts.js"></script>
 
-<!-- Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
-</div> 
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+  </div>
 </body>
 </html>
